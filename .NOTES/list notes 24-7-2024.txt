@@ -1,0 +1,28 @@
+list : it is mutable, collection of elements of different types of data. the index of the list starts from 0. list is mutable which means we can grow or shrink the size of list. It is an ordered list. 
+1. Ordered list
+2. Mutable list
+3. Herterogeneous list
+4. dynamic in size
+
+=> How to create a list
+syntax:-
+listname = [value1, value2, value3, value4,,,,,valuen]
+To create an empty list
+listname = []
+
+=> How to Add elements to the list
+-> append() method is used to add single value to the list
+syntax :-
+	listname.append(value)
+
+-> extend() method is used to multiple values(another list) to the list
+syntax
+		listname.extend(sublist)
+	-> first create another list
+		eg mainlist =[33,55,77,899]
+		   sublist= [1,2,3,4,5]
+		   mainlist.extend(sublist)
+Slicing : means extracting a particular part of the list or get some elements, then we use slicing.
+Syntax:
+	listname[start:stop:step]
+eg  list1[2:5]

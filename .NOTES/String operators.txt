@@ -1,0 +1,38 @@
+String operators:-
+1.  + Operator(concatenation Operator) : this operator is used to join two strings and returns the new string.
+syntax :-
+	string1+string2
+2. * operator(repetition operator) : it is used to repeat a string number  of given times.
+	syntax: -
+		newstring = str * number of repetitions
+3. Membership operators : it is used to check whether a substring exists in a string or not. It returns the output in the form of true or false.
+	a. in : checks for occurrence of a substring
+	b. not in : checks for non-occurrence  of a substring
+4. String formatting : It is used to print a string with string formatting using the old style(c language)
+
+%d - int value
+%s -  string value
+%f -  float value
+%c - char value
+syntax :
+
+	"id : %d Name: %s salary %f"%(id,name,salary)
+->  .format() method: it is also used to get a formatted string
+"value value value {} value value {}".format(var1,var2)
+
+String comparision : to compare two strings and return the output accordingly
+String comparision operators are : == != < > <= >=
+
+when we compare two string using above operators, it checks their ASCII value to compare them. 
+	str1>str2    
+str1 = dpple  ->a  97 
+str2 = delhi   ->d 100
+	str1 > str2  
+	97 > 100 false
+	str1 == str2
+	97 == 100 false
+if the value of first string is greater than second then it returns true
+
+
+String Methods :-
+

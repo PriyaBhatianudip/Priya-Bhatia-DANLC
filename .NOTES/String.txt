@@ -1,0 +1,41 @@
+String : it is a sequence of characters which is used to store textual data. String can be stored either in single quotes, double quotes or multiline strings can be enclosed in triple quotes.
+In String the index starts from 0.
+To define a string
+stringvar = "value"
+stringvar = 'value'
+
+To get a character from string  :-  stringvar[index]
+To get more than one character : -  stringvar[sindex:endindex+1]
+
+* if we provide negative index then it prints the value from the last of string. for example -1 represents the last character in the string
+* to print a string in the reverse order without using loop :  var[::-1]
+Slicing : to get a part of string based on given criteria
+syntax:-
+     to get a particular part of string :-  var[sindex:eindex]
+*  if we do not provide any end index, then it automatically takes last index of the string
+* if we do not provide the start index, then by default it takes 0 as first index.
+* we can provide step value in between to skip values
+var[sindex:eindex:stepvalue]
+
+* Special string operators
+	-  Concatenate operator(+) : join two strings
+	eg fname = "Jai Kumar"
+		lname="Sharma"
+	print(fname+" "+lname)
+result =  Jai KumarSharma
+	Jai Kumar Sharma
+Repetition (*): The * operator allows you to repeat a string a specified number of times
+syntax:
+	var * number of repetitions
+print(var * number of repetitions)
+result = var * number of repetitions
+Membership operator - in and not in
+in ->  searchstring in mainstring
+not in-> searchstring not in mainstring
+
+
+
+* String Methods
+* IO Files
+
+

@@ -1,0 +1,91 @@
+Loops : It is used to repeat a block of code multiple times until the given condition is satisfied, or it completes a particular number of repetitions.
+
+Pythons has two types of loops:-
+1. for loop  : it is used to repeat a set of instructions until the given range is completed. we can use a for loop in multiple ways. 
+syntax:
+	for var in range(start_value(optional), end_value, incr/decr(optional)):
+		code
+eg. 
+	# to print numbers from 1 to 10.
+	for I in range(1,11):
+		print(I)
+
+for i in range(1, 11):  #  < 11
+    print(i)
+print("Second loop")
+for i in range(11):
+    print(i)
+
+print("Third loop")
+
+for i in range(1,11,2):
+    print(i)
+print("reverse order for loop")
+
+for i in range(11,0,-1):
+    print(i)
+print("Reverse order ")
+for i in reversed(range(5)):
+    print(i)
+Q1. if we don't provide the start value, then what this loop will take as start value?
+
+Nested for loop : when we use one for loop inside another loop, then it  is known as nested for loop.
+syntax : 
+	for var in range(value):
+		for var in range(value):
+			for var in range(value):
+				code
+Rules:-
+1. if the condition of the outer loop is false, then inner loop will not run
+2. if the inner loop is running, then outer loop has to wait to go to next level, until inner loop finishes all its iterations
+3. Every time outer loop increments its value, inner loop will be started from start point again and again.
+
+eg. 
+	for i in range(1,6):   ->  i=1 to 5
+		for j in range(1,6):  -> j=1 to 5
+			print("Hello")
+i = 1
+j = 1 to 5
+hello
+hello
+hello
+hello
+hello
+i = 2
+j = 1 to 5
+hello
+hello
+hello
+hello
+hello
+
+
+*   end =""  - it will stop cursor from going into next line
+		print("hello", end="")
+*  \t - tab space
+
+2. while loop : in while loop, the set of instructions get repeated again and again until the given condition is true. if the condition is false then the loop will exit.
+Syntax :-
+	while condition:
+		code
+		incr/decr
+eg
+	print 1 to 10
+	i =1
+	while i<=10:    i=1,2,3,4,5,6,7,8,9,10,11
+		print(i)
+		i += 1
+
+	print(i)
+eg    infinite loop
+	while true:
+		print("hello")
+
+
+
+
+
+
+
+
+ 

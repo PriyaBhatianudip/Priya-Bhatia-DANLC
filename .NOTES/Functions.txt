@@ -1,0 +1,75 @@
+Functions :- it is a block of code which can be executed whenever needed in the program. it simplifies the code by dividing all the tasks into sub-modules. it also allows us to reuse a function again and again, thus it reduces space and increases efficiency of the program.
+
+Two types of functions:-
+1. Inbuilt functions : - these functions are already defined in the programming language and can be used easily anytime.
+
+2. User-Defined functions :- 
+
+syntax :-
+def functionname(parameters):
+	code
+	return statement
+Loops :-
+ it is used to repeat a set of instructions, until it satisfies a particular condition. 
+1. for loop   : - when we know number of iterations or when we know the starting and ending point for repeating a set of instructions, then we use for loop
+	for var in range:
+		code
+
+	for var in sequence:
+		code
+	for num in range(1, 6):
+		print(num)
+
+
+	for I in range(1,5):        ->  1 to 4  i-1,j
+		for j in range(1,5):  -> 1 to 4   j=1,2,3,4
+			for k in range(1,5)
+				print(I," ",j)
+	for var in range(start, end, increment)
+
+Q1 . wap to print first 10 even numbers using for loop
+	
+	if num%2 == 0
+Q2. wap to print the multiplication table of a number which user inputs
+Q3. wap to print multiplication tables from a start and end value which user inputs,  print table from 5 to 15
+2  3  4  5 
+4  6  8  10
+6  9  12 15 
+
+end="" : to tell the complier for not taking next line when using print() method.
+Escape sequence
+\t - tab space
+\n - new line/next line
+
+
+2. while loop
+while condition:
+	code
+	inc/dec value
+
+Q1 wap to check whether a number is prime or not?
+
+prime number :
+ which is divisible by itself and 1
+num=18                
+n = 2 to num/2
+if number gets divided fully by any number then break 
+num%2  = 0 
+num/3
+num/4
+num/5
+num/6
+num/7
+num/8
+num/9
+if numbers is not divisible by any of the above then It is a prime number
+
+
+Q3. Wap to input  10 numbers from user and find their sum and average.
+
+run a loop to input 10 values
+in this loop, add all of these values into a single variable
+after the loops finishes calculate its average and print sum and average both
+
+
+
