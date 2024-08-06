@@ -4,6 +4,7 @@
 # print("index\t: value")
 # for index, value in enumerate(list1):
 #     print(f"{index}\t: {value}")
+from dictionarydemo import DictionaryDemo
 
 # 5. Write a Python program to traverse
 # a given list in reverse order, and
@@ -29,3 +30,5 @@ print("index\t: value")
 for i in range(len(colorlist)-1, -1,-1):  #  i= 4-1=3-1=2 i>-1  decrement = -1
     print(f"{i}\t: {colorlist[i]}")   # 2   white
 
+dd = DictionaryDemo()
+dd.printdictionary()

@@ -16,7 +16,7 @@
 # Two dimension list -> list1= [[1,2,3],[1,2,3],[1,2,4]]
 #  -> list1 =[[],[],[]]
 
-list1= [[1,2,3],[4,5,6,6,89],[7,8,9]]
+list1= [[1,2,3],[4,5,6],[7,8,9]]
 # Traverse : access each data from the matrix
 for r in range(0,3):
     for c in range(0,3):
